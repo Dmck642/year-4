@@ -1,0 +1,6 @@
+num1 = float(input("enter a number:"))
+num2 = float(input("enter a second number:"))
+answer = print(num1+num2)
+num3 = float(input("enter a third number:"))
+average = (num1+num2+num3)
+print(average/3)
