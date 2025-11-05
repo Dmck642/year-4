@@ -1,0 +1,3 @@
+temp = float(input("what is the temperature?"))
+Fahr = ((temp*9/5)+32)
+print(Fahr)
