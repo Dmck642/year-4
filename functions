@@ -1,0 +1,6 @@
+def sumofNumbers(a , b , c):
+    return a + b + c
+num = int(input("Enter a number"))
+num2 = int(input("Enter a number"))
+num3 = int(input("Enter a number"))
+print(sumofNumbers(num,num2,num3))
