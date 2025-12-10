@@ -1,0 +1,9 @@
+import random 
+
+def get_random_listofNums():
+    low = int(input("Enter a low number"))
+    high = int(input("Enter a high number"))
+    comp_num = random.randint(low,high)
+    print(comp_num)
+
+get_random_listofNums()
