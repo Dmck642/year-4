@@ -1,0 +1,15 @@
+def convert_units():
+    print("Convert between: m, km, cm")
+    from_unit = input("From unit: ").lower()
+    to_unit = input("To unit: ").lower()
+    value = float(input("Value: "))
+if from_unit == "km":
+        value = value * 1000
+elif from_unit == "cm":
+        value = value / 100
+if to_unit == "km":
+        value = value / 1000
+elif to_unit == "cm":
+        value = value * 100
+print("Converted value:", value)
+convert_units()
