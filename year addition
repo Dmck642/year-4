@@ -1,0 +1,7 @@
+year = input("Enter a year: ")
+
+total = 0
+for digit in year:
+    total += int(digit)
+
+print("Sum of digits:", total)
