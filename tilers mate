@@ -1,0 +1,18 @@
+floor_width = float(input("Floor width (m): "))
+floor_length = float(input("Floor length (m): "))
+
+tile_width = float(input("Tile width (m): "))
+tile_length = float(input("Tile length (m): "))
+
+tile_cost = float(input("Cost per tile (£): "))
+
+floor_area = floor_width * floor_length
+tile_area = tile_width * tile_length
+
+tiles_needed = floor_area / tile_area
+import math
+tiles_needed = math.ceil(tiles_needed)
+
+total_cost = tiles_needed * tile_cost
+print("Tiles needed:", tiles_needed)
+print("Total cost: £", total_cost)
